@@ -1,0 +1,10 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#0D3503",
+        "titleBar.activeBackground": "#134A04",
+        "titleBar.activeForeground": "#F0FEEC"
+    },
+    "cSpell.words": [
+        "mintlify"
+    ]
+}
