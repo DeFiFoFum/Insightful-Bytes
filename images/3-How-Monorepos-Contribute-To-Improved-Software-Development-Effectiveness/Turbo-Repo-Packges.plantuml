@@ -1,0 +1,19 @@
+@startuml
+skinparam packageStyle rectangle
+skinparam backgroundColor white
+skinparam stereotypeCBackgroundColor #ADD1B2
+skinparam stereotypeCBorderColor #A80036
+
+package "Turbo Repo Packages" {
+  [Application Packages] #LightPink
+  
+  package "Library Packages" #LightBlue {
+    [Internal Packages] #LightGreen
+    [External Packages] #LightYellow
+  }
+}
+
+[Application Packages] --> [Internal Packages]
+[Application Packages] --> [External Packages]
+[External Packages] <-- [External Application]
+@enduml

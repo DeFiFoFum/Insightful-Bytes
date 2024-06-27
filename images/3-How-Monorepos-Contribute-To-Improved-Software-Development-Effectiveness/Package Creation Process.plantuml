@@ -1,0 +1,24 @@
+@startuml
+skinparam activityDiamondAspectRatio 0.8
+skinparam activityArrowColor #000
+skinparam activityBorderColor #000
+
+title Package Creation and Update Process\n<b>All steps:</b> Non-monorepo package creation\n<b><color:GreenYellow>Green steps:</color></b> Also applicable to monorepo
+
+start
+
+if (Initial creation or update?) then (Initial creation)
+  #GreenYellow:1. Identify need for a module in application;
+  #LightYellow:2. Go to GitHub;
+  #LightYellow:3. Create new repository;
+else (Update)
+  #GreenYellow:Update needed;
+endif
+
+#LightYellow:4. Clone repository to local machine;
+#GreenYellow:5. Develop package / Make updates;
+#GreenYellow:6. Test the package;
+#LightYellow:7. Publish package to NPM;
+#LightYellow:8. Return to original application;
+#LightYellow:9. `npm install` the newly published package;
+@enduml
