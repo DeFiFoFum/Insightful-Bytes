@@ -45,10 +45,16 @@
   ],
   "navigation": [
     {
-      "group": "Blog",
+      "group": "Software Engineering",
       "pages": [
         "blog/1-the-value-of-clean-code",
         "blog/2-Test-Driven Development-The-Secret-Sauce-for-Exceptional-Software"
+      ]
+    },
+    {
+      "group": "Solidity",
+      "pages": [
+        "solidity-topics/solidity"
       ]
     },
     {
