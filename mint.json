@@ -48,7 +48,8 @@
       "group": "Software Engineering",
       "pages": [
         "blog/1-the-value-of-clean-code",
-        "blog/2-Test-Driven Development-The-Secret-Sauce-for-Exceptional-Software"
+        "blog/2-Test-Driven Development-The-Secret-Sauce-for-Exceptional-Software",
+        "blog/3-How-Monorepos-Contribute-To-Improved-Software-Development-Effectiveness"
       ]
     },
     {
